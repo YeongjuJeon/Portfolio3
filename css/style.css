@@ -1,0 +1,119 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Pretendard", sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: #eee;
+}
+a {
+    text-decoration: none;
+}
+ul,
+li {
+    list-style: none;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid #000;
+}
+#header-inner {
+    width: 1280px;
+    height: 70px;
+    /* background-color: #555; */
+    margin: 0 auto;
+}
+
+.home-link {
+    height: 70px;
+    float: left;
+    margin-top: 17px;
+}
+.home-link-pic {
+    width: 38px;
+    height: 38px;
+    background-color: blue;
+    float: left;
+}
+.home-link-name {
+    float: left;
+    margin-left: 10px;
+}
+.home-link-name a {
+    color: #000;
+}
+.home-link-name a h1 {
+    font-weight: 700;
+}
+.home-link-name a h1 span {
+    font-weight: 300;
+}
+.menu {
+    height: 70px;
+    float: right;
+    /* background-color: #999; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.menu-box {
+    width: 160px;
+    height: 45px;
+    /* background-color: #fff; */
+    border-radius: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-box:hover {
+    background: #333;
+    transition: 0.3s;
+}
+.menu-box:hover a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.menu-box a {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000;
+    /* background-color: blue; */
+    padding: 10px 50px;
+}
+
+/* SECTION */
+
+.section1 {
+    width: 100%;
+    height: 1000px;
+    /* background-color: aqua; */
+}
+
+.container {
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(rgb(255, 195, 195), 255, 255, 0.2);
+}
+
+.section1-top {
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+}
+
+.section1-bottom {
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+}
